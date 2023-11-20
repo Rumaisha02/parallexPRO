@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.bgimage1{
+   background-image: url(./images/image1.png);
+   height: 100vh;
+}
+.bgimage2{
+    background-image: url(./images/image2.png);
+    height: 100vh;
+}
+.bgimage3{
+    background-image: url(./images/image3.png);
+    height: 100vh;
+}
+.bgimage1, 
+.bgimage2,
+.bgimage3{
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#background1{
+    height: 100vh;
+}
+
+#heading1{
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.heading{
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    border: 5px solid #666;
+    background-color:  #666;
+    color: bisque;
+    font-size: 2rem; 
+}
+#background2{
+height: 100vh;
+}
+#para1{
+    background-color: #F5F0BB;
+    padding: 10px;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#para1>h1{
+    font-style: bold;
+    color: #2C3639;
+    font-size: 1.5rem;
+}
+ #para1>p{
+    color: #2C3639;
+    font-weight: 500;
+    font-size: 1rem;
+
+ } 
+ #heading2{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+   .headingg2{
+       letter-spacing: 8px;
+       text-transform: uppercase;
+       border: 5px solid #666;
+       background-color:  #666;
+       color: bisque;
+       font-size: 2rem; 
+   }
+   #background3{
+    height: 100vh;
+    }
+    #para2{
+        background-color: #557153;
+        padding: 10px;
+        text-align: center;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #para2>h1{
+        color: #ECE3CE;
+        font-size: 1.5rem;
+        font-style: bold;
+    }
+     #para2>p{
+        color: #ECE3CE;
+        font-weight: 500;
+        font-size: 1rem;
+     } 
+   #heading2{
+    display: flex;
+    justify-content: center;
+   }
+   .bgimage1{
+    background-image: url(./images/image1.png);
+    height: 100vh;
+ }
